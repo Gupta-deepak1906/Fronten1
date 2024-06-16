@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    <title></title>
+    <style>
+        body{
+            font-family: Arial,Sans-serif;
+            background-color: #BDD4E7;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #CCE9E7;
+            border-radius: 8px;
+            box box-shadow: 0 0 10px rgba(0,0,0,1);
+        }
+        h2{
+            text-align: center;
+            color: #333E3E;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h2>Contact US</h2>
+   <form>
+    <label for="name">Full name</label>
+    <input type="text" id="name" placeholder="Enter your name" required><br></br>
+   
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Enter your email" required><br></br>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message"></textarea><br><br>
+
+   
+   <label for="subsribe ">Subscribe to the newsletter</label><br>
+   <input type="checkbox" id="subsribe" name="Subscribe" value="subsribe" required><br></br>
+
+   
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male"><br>
+   
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="female"><br></br>
+
+    <label for="country">Country :</label><br>
+    <select id="country" name="country">
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="Germany">Germany</option><br><br>
+ </select><br><br>
+
+    <input type="submit" value="Submit">
+
+</form>
+    </div>
+    
+</body>
+</html>
+
